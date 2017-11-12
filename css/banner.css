@@ -1,0 +1,70 @@
+#banner{
+  width:100%;
+  width:98.7vw;
+  position:relative;
+  overflow:hidden;
+}
+#banner-show img{
+  width:20%;
+  width:100vw;
+}
+#banner-show{
+  width:8640px;
+  width:600vw;
+  position:relative;
+  left:0;
+  transition:all .3s linear;
+}
+#banner a.ck-slide{
+  position:absolute;
+  top:157px;
+  width:35px;
+  height:70px;
+  border-radius:3px;
+  top:10.9vw;
+  width:2.43vw;
+  height:4.86vw;
+  border-radius:0.21vw;
+  background:#000;
+  opacity:0.15;
+  transition:all .3s linear;
+}
+#banner a.ck-left{
+  left:5px;
+  left:0.35vw;
+  background: #000 url(../img/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+  right:5px;
+  right:0.35vw;
+  background:#000 url(../img/arrow-right.png) no-repeat center center;
+}
+#banner a.ck-slide:hover{
+  opacity:0.3;
+}
+#banner ul.nav-dot{
+  width:720px;
+  width:50vw;
+}
+#banner ul.nav-dot li{
+  display:inline-block;
+  width:20px;height:20px;
+  width:1.39vw;height:1.39vw;
+  border-radius:50%;
+  background:#E85B8A;
+  margin:10px;
+  margin:0.69vw;
+  opacity:0.5;
+}
+#banner ul.nav-dot li:hover,#banner ul.nav-dot li.hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+
+#banner ul.nav-dot{
+  position:absolute;
+  bottom:0;
+  left:360px;
+  left:25vw;
+  text-align:center;
+}

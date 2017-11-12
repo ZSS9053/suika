@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>西瓜家-欢迎登陆</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+  <header id="header"></header>
+  <div class="main" id="login-box">
+    <img src="img/21-736759117092.jpg" alt="">
+    <div class="filter"></div>
+    <div id="login-form">
+      <p>
+        <a href="#scan_code" class="active">快速登陆</a>
+        <a href="#form-login">密码登陆</a>
+        <!--<a href="register.html">手机注册</a>-->
+      </p>
+      <form id="form-login" style="display:none;">
+        <input type="text" id="uname" placeholder="请输入手机号/邮箱/用户名">
+        <span class="uname-msg"></span>
+        <input type="password" id="upwd" placeholder="请输入密码">
+        <span class="upwd-msg"></span>
+        <div>
+          <div>
+            <input type="checkbox"><span>记住密码</span>
+          </div>
+          <a href="">忘记密码</a>
+        </div>
+        <input type="button" id="btn" value="登陆">
+      </form>
+      <div id="scan_code">
+        <img src="img/show.png" alt="">
+        <img src="img/phone-orange.png" alt="" style="display:none;">
+        <p>扫描二维码登录</p>
+      </div>
+      <div id="other">
+        <p>
+          <span></span>
+          使用其他方式登陆
+          <span></span>
+        </p>
+        <ul class="clear">
+          <li class="lf"><a href="#"></a></li>
+          <li class="lf"><a href="#"></a></li>
+          <li class="lf"><a href="#"></a></li>
+          <li class="lf"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

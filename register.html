@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>西瓜家-注册</title>
+  <link rel="icon" href="img/logo.icon">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<div class="main">
+  <header id="header"></header>
+  <div class="main" id="login-box">
+    <img src="img/21-736759117092.png" alt="">
+    <div class="filter"></div>
+    <div id="register">
+      <p class="title">注册</p>
+      <form action="">
+        <p>用户名</p>
+        <input type="text" placeholder="请设置用户名" class="text" id="uname"/>
+        <div class="msg" data-msg="uname">
+          <p class="fa fa-check-square succ hide"></p>
+          <p class="fa fa-window-close err hide"></p>
+          <p class="prompt fa fa-warning hide">支持中文、字母、数字、'-'、'_'的组合，4-20个字符</p>
+        </div>
+        <p>密码</p>
+        <input type="password" placeholder="请设置登录密码" class="text" id="upwd"/>
+        <div class="msg" data-msg="upwd">
+          <p class="fa fa-check-square succ hide"></p>
+          <p class="fa fa-window-close err hide"></p>
+          <p class="prompt fa fa-warning hide">6~20位字母，数字的组合，至少包含一个大写字母和一位数字</p>
+        </div>
+        <p>确认密码</p>
+        <input type="password" placeholder="请再次密码" class="text" id="checkPwd"/>
+        <div class="msg" data-msg="checkPwd">
+          <p class="fa fa-check-square succ hide"></p>
+          <p class="fa fa-window-close err hide"></p>
+          <p class="prompt fa fa-warning hide">请再次密码</p>
+        </div>
+        <input type="checkbox" data-type="checkbox"/>
+        <span>我已同意并阅读《服务协议》</span>
+        
+        <button class="btn" data-btn="register">确认注册</button>
+        <div class="hr"></div>
+        <p class="bind">已有帐号,绑定到已有账户:</p>
+        <p>Email/手机</p>
+        <input type="text" class="text"/>
+        <button class="bind">绑定</button>
+      </form>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/login.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

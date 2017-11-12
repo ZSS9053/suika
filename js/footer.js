@@ -1,0 +1,10 @@
+$.ajax({
+  type:"GET",
+  url:"data/footer.php",
+  success:function(html){
+    $("#footer").html(html);
+  },
+  error:function(){
+    alert("网络出现故障,请检查");
+  }
+})

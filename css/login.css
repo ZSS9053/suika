@@ -1,0 +1,134 @@
+#login-box{
+  position:relative;
+  margin:20px auto 0;
+}
+#login-box>img{
+  width:100%;
+  position:relative;
+}
+#login-box .filter{
+  position:absolute;
+  top:0;
+  width:100%;height:100%;
+  background:#E397B1;
+  opacity:0.5;
+}
+#login-form{
+  width:350px;height:400px;
+  background:#fff;
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  margin:auto;
+}
+#login-form>p{
+  height:50px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+#login-form>p a{
+  font-size:15px;
+  color:#ED6392;
+}
+#login-form>p a:hover,#login-form p a.active{
+  color:#ED6392;
+  font-weight:bold;
+}
+#login-form>form>input{
+  display:block;
+  height:30px;
+  width:80%;
+  line-height:30px;
+  padding:3px;
+  margin:20px auto;
+  border:1px solid #ED6392;
+}
+#login-form>form>div{
+  display:flex;
+  width:80%;
+  margin:20px auto;
+  justify-content:space-between;
+}
+#login-form>form>div>div>input{
+  position:relative;
+  top:2px;
+}
+#login-form>form>div>div>span{
+  color:#ED6392;
+  font-size:14px;
+}
+#login-form>form>input:last-child{
+  background:#ED6392;
+  height:38px;
+  color:#fff;
+  font-size:15px;
+}
+#form-login>div>a{
+  color:#ED6392;
+}
+#other>p{
+  text-align:center;
+  line-height:20px;
+}
+#other>p>span{
+  display:inline-block;
+  width:20%;
+  border-top:1px solid #DCDCDC;
+}
+
+#login-form ul{
+  width:50%;
+  margin:20px auto;
+}
+#login-form ul li{
+  width:25%;
+  text-align:center;
+}
+#login-form ul li a{
+  display:inline-block;
+  width:29px;height:25px;
+  background:url(../img/iconlist-2.png) -54px -34px;
+}
+#login-form ul li:nth-child(2) a{
+  background-position:-94px -34px;
+}
+#login-form ul li:nth-child(3) a{
+  background-position:-137px -34px;
+}
+#login-form ul li:last-child a{
+  background-position:-178px -33px;
+}
+#form-login{
+  height:60%;
+}
+#scan_code{
+  height:60%;
+  width:80%;
+  margin:auto;
+  position:relative;
+}
+#scan_code:before{
+  content:"";
+  display:table;
+}
+#scan_code>img{
+  height:70%;
+  display:block;
+  position:absolute;
+  left:0;top:0;bottom:0;right:0;
+  margin:auto;
+}
+#scan_code>p{
+  text-align:center;
+  position:absolute;
+  bottom:5px;
+  width:100%;
+  font-size:18px;
+}
+#scan_code>img:nth-child(2){
+  right:-180px;
+}
+#scan_code>img:first-child{
+  transition:all 0.1s linear;
+  height:63%;
+}

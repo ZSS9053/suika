@@ -1,0 +1,116 @@
+.cutLine{
+  color:#E24D7F;
+}
+/*侧边导航*/
+#order-nav{
+  width:12vw;
+  background:#F9F9F9;
+  margin-left:12vw;
+  padding-top:1vw;
+  float:left;
+}
+#order-nav .avatar{
+  width:6vw;height:6vw;
+  border-radius:50%;
+  display:block;
+  margin:auto;
+}
+#order-nav .userName{
+  text-align:center;
+  margin:0.5vw 0 1vw;
+}
+#order-nav .nav-list{
+  width:8vw;
+  margin:auto;
+}
+#order-nav .nav-list  .navClass{
+  border-top:1px solid #ddd;
+  padding:1vw 0;
+}
+#order-nav .nav-list .navClass .nav-title{
+  font-size:1.2vw;
+}
+#order-nav .nav-list .navClass .nav-detail{
+  margin-top:1vw;
+}
+#order-nav .nav-list .navClass .nav-detail li{
+  padding:0.3vw;
+}
+#order-nav .nav-list .navClass .nav-detail li .all{
+  color:red;
+}
+/*订单标题*/
+.mu_content_wrap{
+  width:62vw;
+  margin-left:25vw;
+}
+#list-title{
+  position:relative;
+  height:2.5vw;
+  line-height:2.5vw;
+  margin-bottom:2vw;
+}
+#list-title .order-title-column{
+  background:#F5F5F5;
+  height:2.5vw;
+}
+#list-title .order-title-column li{
+  float:left;
+  font-weight: 700;
+  text-align: center;
+}
+.goods{
+  width:32%;
+}
+.aftersale,.price{
+  width:11.7%;
+}
+.quantity{
+  width: 6.8%;
+}
+.other, .status, .total {
+  width: 12.5%;
+}
+/*订单列表*/
+.finished #order-table {
+  border-color: #ececec;
+}
+#order-table {
+  width: 100%;
+  border: 1px solid #ffdb82;
+}
+#order-table .goods .pic {
+  width: 5vw;
+  height: 5vw;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#order-table .goods .pic img{
+  width:100%;
+}
+#order-table .order-table-item td.goods {
+  padding-bottom: 10px;
+}
+#order-table .order-table-item .goods {
+  position: relative;
+}
+#order-table .order-table-item td {
+  padding: 1vw 0 0;
+  color: #333;
+  vertical-align: top;
+}
+#order-table .goods .desc, #order-table .goods .pic {
+  float: left;
+  margin-left: 20px;
+}
+#order-table .goods .desc {
+  line-height: 1.3vw;
+  width:11vw;
+}
+#order-table .price .oldPrice{
+  text-decoration:line-through;
+}
+#order-table .price .offerPrice{
+  font-weight:700;
+}

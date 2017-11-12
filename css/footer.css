@@ -1,0 +1,87 @@
+#foot{
+  background:#F6F5F5;
+  padding-top:20px;
+  padding-top:1.39vw;
+}
+#foot>ul{
+  width:600px;
+  width:41.67vw;
+  margin:0 auto;
+}
+#foot>ul>li{
+  width:150px;
+  width:10.41vw;
+}
+#foot>ul>li>b{
+  display:block;
+  width:62px;height:62px;
+  width:4.31vw;height:4.31vw;
+  background:url(../img/iconlist.png) -79px 0;
+  margin:0 auto;
+}
+#foot>ul>li:nth-child(2)>b{
+  background-position:-149px 0;
+}
+#foot>ul>li:nth-child(3)>b{
+  background-position:-1px 0;
+}
+#foot>ul>li:last-child>b{
+  background-position:0 -171px;
+}
+#foot>p{
+  font-size:27px;
+  font-size:1.875vw;
+  color:#E24D7F;
+  margin-top:20px;
+  margin-top:1.39vw;
+  text-align:center;
+}
+#foot>span{
+  display:block;
+  text-align:center;
+}
+#footer-msg{
+  width:800px;
+  width:55.56vw;
+  display:flex;
+  margin:20px auto 0;
+  margin:1.39vw auto 0;
+  justify-content:space-around;
+}
+#footer-msg ul li{
+  margin:5px 0;
+  margin:0.35vw 0;
+}
+#footer-msg ul li:first-child{
+  margin-bottom:10px;
+  margin-bottom:0.69vw;
+}
+#foot .footer-register{
+  width:500px;
+  width:34.72vw;
+  margin:auto;
+  text-align:center;
+  line-height:31px;
+  line-height:2.15vw;
+}
+#foot .footer-register input{
+  width:300px;
+  width:20.83vw;
+  height:28px;
+  height:1.94vw;
+  border:2px solid #DE4178;
+  border:0.15vw solid #DE4178;
+}
+#foot .footer-register div{
+  display:inline-block;
+  background:#DE4178;
+  width:50px;
+  width:3.47vw;
+  height:32px;
+  height:2.22vw;
+  margin-left:-5px;
+  margin-left:-0.35vw;
+  border-radius:0 5px 5px 0;
+  border-radius:0 0.35vw 0.35vw 0;
+  color:#fff;
+}
